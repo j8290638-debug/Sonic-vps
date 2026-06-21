@@ -1,0 +1,8 @@
+name: Windows-VPS
+on: workflow_dispatch
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+    - name: Setup Tmate
+      uses: mxschmitt/action-tmate@v3
